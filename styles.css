@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Satisfy&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 a:active{
     color:#fff!important ;
@@ -12,6 +15,14 @@ a:visited{
 a{
     text-decoration: none;
     color:#ffb703;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3{
+    font-family: 'Satisfy', cursive;
 }
 
 header{
