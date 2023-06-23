@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:active{
+    color:#fff!important ;
+}
+a:visited{
+    color: #fb8500;
+}
+a{
+    text-decoration: none;
+    color:#ffb703;
+}
+
+header{
+    background-color: #023047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width:25%;
+}
+main{
+    background-color: #219ebc;
+    padding: 0% 0% 10% 0%;
+}
+
+.about-us{
+    background-color: #fb8500;
+    padding: 8%;
+    margin: 10% 0%;
+    color: #023047;
+}
+
+.offers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers article{
+    width: 70%;
+    margin: 5%;
+    padding: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 10%;
+}
+
+.offers article img{
+    width: 60%;
+}
+.contact{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+footer{
+    background-color: #023047;
+    height: 15%;
+    color: #ffb703;
+    padding: 7%;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div{
+    display: flex;
+    margin: 2%;
+}
+.container div a i{
+    margin: 3vw;
+}
+.container .two {
+    display: none;
+}
